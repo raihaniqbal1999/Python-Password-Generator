@@ -7,10 +7,10 @@
 ## Setup
 
 Clone the repository using the command below: <br/>
-git clone https://github.com/raihaniqbal1999/Python-Password_Generator.git 
+git clone https://github.com/raihaniqbal1999/Python-Password_Generator.git <br/>
  Install python3. <br/>
 Install the dependencies using the commands below: <br/>
-   pip3 install string 
+   pip3 install string <br>
    pip3 install secrets 
 
 ## Execution
