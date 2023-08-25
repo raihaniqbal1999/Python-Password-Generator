@@ -58,8 +58,8 @@ def generate_password(length: int, symbols: bool, uppercase: bool) -> str:
 
 if __name__ == '__main__':
     # Generate random passwords based on the input
-    c = int(input())
-    length = int(input())
+    c = int(input("Enter the number of passwords to be generated \n"))
+    length = int(input("Enter the lenght of each password \n"))
     for i in range(1, c+1):
         new_pass: str = generate_password(length=length, symbols=True, uppercase=True)
         specs: str = f'U: {contains_upper(new_pass)}, S: {contains_symbols(new_pass)}'
